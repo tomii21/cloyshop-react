@@ -6,7 +6,7 @@ function App () {
   const [url, setUrl] = useState ([]);
   useEffect (() => {
     const getUrl =() => {
-      fetch ('http://localhost:3000')
+      fetch ('https://node-server-vercel.vercel.app/')
       .then(response=> response.json())
       .then(data=>setUrl(data))
       .catch(err=>(console.log(err)))
