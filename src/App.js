@@ -1,6 +1,6 @@
 import './App.css';
 /* import productos from './data'; */
-import ListaProductos from './componentes/lista_productos';
+import ListaProductos from './componentes/lista-productos';
 import {useEffect, useState} from 'react';
 function App () {
   const [url, setUrl] = useState ([]);
